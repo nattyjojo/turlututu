@@ -1,0 +1,127 @@
+@import "./funtions";
+@import "./colorVaribles";
+@import "./fontColorVaribles";
+
+
+.main__intro{
+    &--article{
+        display: flex;
+        justify-content: space-around;
+        font-size: 20px;
+        line-height: 35px;
+        text-align: justify;
+        text-align-last: center;
+        color: $primaryTextColor;
+    }
+    &--btn{
+        margin-left: 40%;
+        background-color: $btnColor;
+        padding: 15px 60px;
+        border-radius: 5px;
+        color: aliceblue;
+        margin-top: 40px;
+        border: 1px solid black;
+    }
+    &--smallArticle{
+        margin-top: 20px;
+        margin-left: 39%;
+        font-size: 14px;
+        color: $primaryTextColor;
+    }
+    &--img{
+        background-image: url(../assets/banner.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        padding: 250px;
+        margin-top: 80px;
+
+    }
+}
+
+.plans{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 50px 0 80px 0;
+    &__wrapper{
+        &--wrapper{
+            border-right: 1px solid darkgrey;
+            padding: 30px 100px 0 0 ;
+            text-align: center;
+            &--icon{
+                background-image: url(../assets/montlyplan.png);
+                padding: 50px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-bottom: 20px;
+            }
+
+            &--title{
+                padding-bottom: 20px;
+                font-size: 20px;
+
+            }
+            &--article{
+                line-height: 25px;
+    
+               
+               
+    
+            }
+            &--btn{
+                background-color: $btnColor;
+                padding: 5px 10px;
+                border-radius: 5px;
+                border: 1px solid black;
+                margin: 20px 0;
+                color: white;
+    
+            }
+            &--smallArticle{
+                font-style: italic;
+                
+            }
+
+        }
+    }
+    &__selfhostedWrapper{
+        &--wrapper{
+            padding: 30px 0 0 80px ;
+            text-align: center;
+            &--icon{
+                background-image: url(../assets/selfhosted.png);
+                padding: 50px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-bottom: 20px;
+            }
+
+            &--title{
+                padding-bottom: 20px;
+                font-size: 20px;
+
+            }
+            &--article{
+                line-height: 25px;
+                text-align: justify;
+                text-align-last: center;
+    
+            }
+            &--btn{
+                background-color: $btnColor;
+                padding: 5px 10px;
+                border-radius: 5px;
+                border: 1px solid black;
+                margin: 20px 0;
+                color: white;
+    
+            }
+            &--smallArticle{
+                font-style: italic;
+                
+            }
+
+        }
+
+    }
+}

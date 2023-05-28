@@ -1,0 +1,72 @@
+
+.main__sponsors{
+    text-align: center;
+    &--headerWrapper{
+        padding-top: 50px;
+        &--title{
+            font-size: 24px;
+        }
+        &--article{
+            line-height: 30px;
+            font-size: 18px;
+
+        }
+    }
+    &--sponsorsWrapper{
+        margin-bottom: 20px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        gap: 30px;
+        &--nasa{
+            background-image: url(../assets/nasa.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 45px;
+        }
+        &--harvard{
+            background-image: url(../assets/harvard.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 45px;
+        }
+        &--intel{
+            background-image: url(../assets/intel.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 45px;
+        }
+        &--lil{
+            background-image: url(../assets/ali.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 45px;
+        }
+        &--adobe{
+            background-image: url(../assets/adobe.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 20px;
+        }
+        &--public{
+            background-image: url(../assets/publics.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 45px;
+        }
+        &--apple{
+            background-image: url(../assets/apple.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 20px;
+        }
+        &--slack{
+            background-image: url(../assets/slack.png);
+            background-repeat: no-repeat;
+            background-size: contain;
+            padding: 45px;
+        }
+    }
+    
+}

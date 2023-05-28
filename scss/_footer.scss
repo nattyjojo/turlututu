@@ -1,0 +1,35 @@
+@import "./colorVaribles";
+
+
+.footer{
+    background-color: rgb(63, 70, 85);
+    &__main{
+        display: flex;
+        padding: 100px;
+        padding-top: 40px;
+        justify-content: space-between;
+        font-size: 14px;
+        & a{
+            line-height: 25px;
+            display: block;
+            color: lightgray;
+        }
+        & a:hover{
+            opacity: 10%;
+        }
+        
+    }
+}
+
+.footerIcons{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.happy{
+    text-align: center;
+    padding: 40px;
+    color: $marginBody;
+}
+.footer__head{
+    color: red;
+}

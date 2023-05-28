@@ -1,0 +1,121 @@
+
+@import "./funtions";
+@import "./colorVaribles";
+@import "./fontColorVaribles";
+
+.main{
+    &__header{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 30px;
+        &--content{
+            font-size: 40px;
+            color: $primaryTextColor;
+        }
+    }
+    &__articlesWrapper{
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 40px;
+        background-color: $articleColor;
+        color: rgb(162, 165, 172);
+        &--task{
+            @include aticleAsset;
+            padding-top: 30px;
+            width: 350px;
+            &--icon{
+                background-image: url(../assets/task.png);
+                padding: 80px;
+                margin-left: 100px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &--title{
+                margin-left: 130px;
+                color: white;
+                
+            }
+            &--article{
+                text-align:justify;
+                text-align-last: center;
+            }
+
+        }
+        &--team{
+            @include aticleAsset;
+            width: 300px;
+            padding: 20px;
+            &--icon{
+                background-image: url(../assets/team.png);
+                padding: 70px;
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+            &--title{
+                margin-top: 10px;
+                margin-left: 40px;
+                color: white;
+                white-space: nowrap;
+            }
+            &--article{
+                text-align: justify;
+                text-align-last: center;
+                white-space: nowrap;
+            }
+            
+
+        }
+        &--time{
+            @include aticleAsset;
+            width: 300px;
+            padding: 30px;
+            &--icon{
+                background-image: url(../assets/time.png);
+                padding: 70px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-left: 20px;
+            }
+            &--title{
+                margin-left: 70px;
+                margin-top: 30px;
+                color: white;
+                white-space: nowrap;
+            }
+            &--article{
+                text-align: justify;
+                text-align-last: center;
+                white-space: nowrap;
+
+            }
+            
+        }
+        &--invoice{
+            @include aticleAsset;
+            border-right: none;
+            padding-top: 30px;
+            width: 350px;
+            &--icon{
+                background-image: url(../assets/invoice.png);
+                padding: 80px;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-left: 50px;
+            }
+            &--title{
+                margin-left: 130px;
+                color: white;
+                margin-top: 10px;
+                
+            }
+            &--article{
+                text-align:justify;
+                text-align-last: center;
+            }
+        }
+            
+
+        
+    }
+   
+}

@@ -1,0 +1,24 @@
+@import "./colorVaribles";
+@import "./fontColorVaribles";
+
+.main__plansWrapper{
+    background-color: white;
+    &--articleWrapper{
+        text-align: center;
+        text-align: justify;
+        text-align-last: center;
+       
+        &--title{
+            padding-top: 80px;
+            font-size: 25px;
+        }
+        &--article{
+            font-size: 20px;
+            line-height: 30px;
+            color: $primaryTextColor;
+          
+
+        }
+    }
+
+}

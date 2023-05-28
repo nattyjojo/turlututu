@@ -1,0 +1,62 @@
+@import "./funtions";
+@import "./colorVaribles";
+@import "./fontColorVaribles";
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: $primaryTextColor;
+    align-items: center;
+
+    &__logo{
+        color: $primaryTextColor;
+        &--icon{
+            background-image: url(../assets/logo.png);
+            background-repeat: no-repeat;
+            padding: 20px;
+            background-size: contain;
+            margin-right: 10px;  
+        }
+        &--text{
+            font-weight: bolder;
+            margin-right: 25px;
+        }
+        &--features{
+            margin-right: 10px;
+            
+        }
+        &--pricing{
+            margin-right: 10px;
+        }
+        &--more{
+            color: rgb(166, 173, 186);
+        }
+    }
+    &__RightLinks{
+        color: $primaryTextColor;
+        &--help{
+            margin-right: 15px;
+        }
+        &--blog{
+            margin-right: 20px;
+        }
+        &--resources{
+            margin-right: 25px;
+        }
+        &--try{
+            border: 1px solid black;
+            padding: 5px 15px;
+            color: white;
+            background-color: $btnColor;
+            border-radius: 5px 0 0 5px;
+        }
+        &--signin{
+            float: right;
+            border: 1px solid black;
+            padding: 5px 15px;
+            border-radius: 0 5px 5px 0;
+        }
+    }
+}
+
